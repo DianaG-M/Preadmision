@@ -1,0 +1,40 @@
+body{
+
+  background-color: #a3d5d3;
+  text-align: center;
+
+
+}
+h1{
+	font-size:80px;
+
+}
+button img {
+  width: 400px;
+  height: 400px;
+  font-size: 200;
+}
+
+
+img {
+  width: 650px;
+  height: 500px;
+}
+
+#opcion{
+	font-size:40px;
+
+}
+.salir{
+  width: 100px;
+  height: 100px;
+  font-size:28px;
+}
+
+
+#second{
+  font-size:30px;
+}
+#first{
+  font-size:30px;
+}

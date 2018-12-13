@@ -1,0 +1,40 @@
+body {
+	background-size:100% 190%; 
+	
+}
+
+ h1{
+  	color: black;
+  	font-size: 150px;
+  	text-align: center;
+  }
+
+
+  div{
+  	text-align: center;
+  }
+
+
+  label{
+  	color:blue;
+  	font-size:30px;
+  	font-style: oblique;
+  }
+
+  .jugar{
+  	height:60;
+  	width: 22%;
+  	background:green;
+  }
+
+  .instrucciones{
+	 height:60;
+	 width:22;
+   background:black;
+  }
+  
+  .borde{
+    border-top:110px solid rgba(0,0,0, 0.01);
+
+  }
+ 

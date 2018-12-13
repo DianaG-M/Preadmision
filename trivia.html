@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trivia TAD</title>
+    <link rel="stylesheet" href="css/trivia.css">
+    <script type="text/javascript" src="JS/trivia.js"></script>
+  </head>
+  <body background="fondo.jpg">
+    <h1>¡A jugar!</h1>
+    <h2>¿En qué película se dijo la frase?</h2>
+
+    <div><p>1. Un mago nunca llega tarde, ni pronto: llega exactamente cuando se lo propone.</p>
+    <button id="bfalso" className="boton-estado" value="1" onclick="color(event)">
+    Matrix<div><img onclick="respuesta(event)"
+    class="incorrecta" value=0 src="https://imagessl2.casadellibro.com/m/ig/2/1271952.jpg"></div></<button>
+    <button id="bverdadero" className="boton-estado" value="1" onclick="color(event)">
+    El señor de los anillos<div><img onclick="respuesta(event)" class ="correcta" value=1 src="https://musicimage.xboxlive.com/catalog/video.movie.8D6KGWZL5P11/image?locale=es-mx&mode=crop&purposes=BoxArt&q=90&h=300&w=200&format=jpg"></div></<button>
+    <button id="bfalso" className="boton-estado" value="1" onclick="color(event)">Harry Potter<div><img onclick="respuesta(event)" class="incorrecta" value=0 src="https://e.an.amtv.pe/espectaculos-harry-potter-actor-saga-se-caso-y-asi-lo-anuncio-n323861-624x352-472373.jpg"></div></<button>
+    </div>
+
+    <div><p>2. La vida es como una caja de bombones, nunca sabes lo que te va a tocar.</p>
+    <button id="bfalso1" className="boton-estado" value="1" onclick="color1(event)">
+    Amélie<div><img onclick="respuesta(event)" class= "incorrecta" src="http://www.redcapitalmx.com/wp-content/uploads/2017/05/amelie.jpg"></div></<button>
+    <button id="bfalso1" className="boton-estado" value="1" onclick="color1(event)">
+    Titanic<div><img onclick="respuesta(event)" class= "incorrecta" src="http://es.web.img3.acsta.net/c_215_290/medias/nmedia/18/86/91/41/19870073.jpg"></div></<button>
+    <button id="bverdadero1" className="boton-estado" value="1" onclick="color1(event)">
+    Forrest Gump<div><img onclick="respuesta(event)" class= "correcta" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Forrest_Gump_poster.jpg/220px-Forrest_Gump_poster.jpg"></div></<button>
+    </div><br>
+
+    <button onclick="location.href='categoria.html'" >
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpJyIlPATUJtJZglflHMF-MBwbsh03QSAeENuR1K2nsxX-mNT7mg"></div></button>
+
+<script type="text/javascript" src="trivia.js">
+
+</script>
+
+  </body>
+</html>

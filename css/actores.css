@@ -1,0 +1,29 @@
+
+body{
+
+
+
+    background-image: url("https://www.fotema.com.ar/wp-content/flagallery/mas-fondos-2/cine-4.jpg");
+
+  text-align: center;
+}
+
+button img {
+  width: 200px;
+  height: 200px;
+}
+/*p{
+  border: 1px solid blue;
+  width: 800px;
+  height: 200px;
+  font-size: 40px;
+}*/
+
+img {
+  width: 650px;
+  height: 500px;
+}
+
+div{
+
+}
