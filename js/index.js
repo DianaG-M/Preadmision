@@ -2,7 +2,9 @@
 function mostrarPalabra(event){
 	const name = document.getElementById("nombre").value;
 	if(name !== ""){
-		let welcome = "Bienvenidx " + name + "";
+		let welcome = "Bienvenidx " + name + " Estas en Preguntitas un juego donde pondrás"+ 
+		" a prueba tus conocimientos sobre CINE \n Elige 'Jugar' si ya quieres empezar a Jugar" + 
+		" o 'Manual' si quieres saber como se Juega";
 		document.getElementById("bienvenida").innerHTML = welcome;
 		/*alert("Bienvenidx " + name +". Estas en Preguntitas un juego donde pondrás"+ 
 		" a prueba tus conocimientos sobre CINE \n Elige 'Jugar' si ya quieres empezar a Jugar" + 
