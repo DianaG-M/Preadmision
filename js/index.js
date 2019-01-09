@@ -16,7 +16,9 @@ function mostrarPalabra(event){
 function play(event){
 	const name = document.getElementById("nombre").value;
 	if(name == ""){
-		alert("Debes de ingresar tu nombre para continuar");		
+		let welcome = "Debes ingresar tu nombre para continuar";
+		document.getElementById("bienvenida").innerHTML = welcome;
+		//alert("Debes de ingresar tu nombre para continuar");		
 	}else{
 		
 		onclick=location.href='categoria.html';
