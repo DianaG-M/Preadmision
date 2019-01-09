@@ -14,11 +14,13 @@ function respuesta (event) {
   console.log(event.target.className);
   if (event.target.className =="correcta") {
     puntajeFinal=puntajeFinal+1;
-    alert("¡Correcto!\n Tu puntaje actual es : " + puntajeFinal);
+    const puntos = "TU RESULTADO FINAL ES: " + puntajeFinal;
+    document.getElementById("resultado").innerHTML = puntos;
+    //alert("¡Correcto!\n Tu puntaje actual es : " + puntajeFinal);
 
   } else {
     puntajeFinal = puntajeFinal;
-    alert("¡Fallaste! \n Tu puntaje actual es: " + puntajeFinal);
+    //alert("¡Fallaste! \n Tu puntaje actual es: " + puntajeFinal);
   }
 
 }
