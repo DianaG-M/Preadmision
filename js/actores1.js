@@ -4,10 +4,12 @@ function respuesta (event){
   console.log(event.target.className);
   if  (event.target.className =='correcta'){
     puntajeFinal = puntajeFinal+1;
-  alert('¡¡ CORRECTO!!\n Tu Puntaje Actual es : '+puntajeFinal);
+    const puntos = "TU RESULTADO FINAL ES: " + puntajeFinal;
+    document.getElementById("resultado").innerHTML = puntos;
+  //alert('¡¡ CORRECTO!!\n Tu Puntaje Actual es : '+puntajeFinal);
   }else{
     puntajeFinal = puntajeFinal;
-    alert('¡FALLASTE!!\n Tu Puntaje Actual es :' +puntajeFinal);
+    //alert('¡FALLASTE!!\n Tu Puntaje Actual es :' +puntajeFinal);
   }
 
 
